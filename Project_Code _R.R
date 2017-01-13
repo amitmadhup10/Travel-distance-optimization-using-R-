@@ -1,12 +1,9 @@
 ###----------------------------------------------------------------###
 # Project Name : Workload Centers
 # Code Name: R - Project_1
-# Date: 02/22/2016
-# Team Name : R-Wranglers
-# Team Members : Mangapathi Shashank Navuduri, Srinivas Godavarthi, 
-#                Amit Madhup, Sai Sarath Talamudupula, Saleem M
-###----------------------------------------------------------------###
-setwd('C:/Users/Shashank Navuduri/Desktop/R Project1')
+###
+
+setwd('C:/Users/Desktop/R Project1')
 ##Installing Libraries
 install.packages("ggmap")
 library(ggmap)
@@ -14,7 +11,7 @@ library(stringr)
 
 
 ## Importing Dataset
-zipdata <- read.csv("C:/Users/Shashank Navuduri/Desktop/R Project1/RI_ZipCodes.csv")
+zipdata <- read.csv("C:/Users/Desktop/R Project1/RI_ZipCodes.csv")
 View(zipdata)
 
 ## Creating Analytical Dataset
